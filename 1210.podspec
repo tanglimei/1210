@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/tanglimei/1210.git", :tag => "0.0.2" }
   s.source_files  = 'Public/*.{h,m}','Public/QuickManifest.plist'
+  s.resources = ['Public/SMResources.bundle']
 end
