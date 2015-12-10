@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "tanglimei" => "562630424@qq.com" }
   s.social_media_url   = "http://www.cnblogs.com/tanglimei/p/4807804.html"
-  s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/tanglimei/1210.git", :tag => "v#{s.version.to_s}" }
   s.source_files  = 'Public/*.{h,m}','Public/QuickManifest.plist'
   s.resources = ['Public/SMResources.bundle']
