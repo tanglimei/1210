@@ -13,4 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/tanglimei/1210.git", :tag => "0.0.3" }
   s.source_files  = 'Public/*.{h,m}','Public/QuickManifest.plist'
   s.resources = ['Public/SMResources.bundle']
+  s.ios.vendored_frameworks = 'Public/QuickUnifyPlatform.framework'
+  s.public_header_files = 'Public/**/*.h'
+  s.requires_arc            = true
 end
