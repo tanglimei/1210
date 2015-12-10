@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       = { "tanglimei" => "562630424@qq.com" }
   s.social_media_url   = "http://www.cnblogs.com/tanglimei/p/4807804.html"
   s.source       = { :git => "https://github.com/tanglimei/1210.git", :tag => "0.0.9" }
-  s.source_files  = 'Public/*.{h,m}','Public/QuickManifest.plist'
+  s.source_files  = 'Public/**/*.{h,m}','Public/QuickManifest.plist'
   s.resources = ['Public/SMResources.bundle']
   s.ios.vendored_frameworks = 'Public/QuickUnifyPlatform.framework'
   s.public_header_files = 'Public/**/*.h'
