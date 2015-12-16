@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'Public/QuickUnifyPlatform.framework'
   s.public_header_files = 'Public/**/*.h'
   s.requires_arc            = true
-  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC'
+  s.pod_target_xcconfig =  'OTHER_LDFLAGS' => '-lObjC'
   #,"VALID_ARCHS" => "arm64 armv7","ARCHS" => "arm64 armv7" }
   #s.ios.frameworks = "UIKit","Foundation","libc++.tbd"
   #spec.ios.library = 'libc++.tbd'
