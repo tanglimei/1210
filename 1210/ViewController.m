@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "Logout.h"
-#import <QuickUnifyPlatform/QuickUnifyPlatform.h>
+//#import <QuickUnifyPlatform/QuickUnifyPlatform.h>
 
 
 @interface ViewController ()
@@ -23,9 +23,9 @@
     Logout * log = [[Logout alloc]init];
     NSLog(@"log = %@",log);
     
-    [[QuickUnifyPlatform getInstance]qupInit];
-    
-    [[QuickUnifyPlatform getInstance]qupLogin];
+//    [[QuickUnifyPlatform getInstance]qupInit];
+//    
+//    [[QuickUnifyPlatform getInstance]qupLogin];
     
     
 }
