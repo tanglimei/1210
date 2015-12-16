@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "Logout.h"
+#import <QuickUnifyPlatform/QuickUnifyPlatform.h>
+
 
 @interface ViewController ()
 
@@ -16,7 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Logout * log = [[Logout alloc]init];
+    NSLog(@"log = %@",log);
+    
+    [[QuickUnifyPlatform getInstance]qupInit];
+    
+    [[QuickUnifyPlatform getInstance]qupLogin];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

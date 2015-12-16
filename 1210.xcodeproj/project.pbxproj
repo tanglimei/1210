@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620D348A1C1EB603001B2859 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 620D34891C1EB603001B2859 /* libc++.tbd */; };
 		621FF18A1C190AF2006EDCC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FF1891C190AF2006EDCC8 /* main.m */; };
 		621FF18D1C190AF2006EDCC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FF18C1C190AF2006EDCC8 /* AppDelegate.m */; };
 		621FF1901C190AF2006EDCC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FF18F1C190AF2006EDCC8 /* ViewController.m */; };
 		621FF1931C190AF2006EDCC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621FF1911C190AF2006EDCC8 /* Main.storyboard */; };
 		621FF1951C190AF2006EDCC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621FF1941C190AF2006EDCC8 /* Assets.xcassets */; };
 		621FF1981C190AF2006EDCC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621FF1961C190AF2006EDCC8 /* LaunchScreen.storyboard */; };
+		62E9E98D1C1E906D00D68805 /* Logout.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E9E9871C1E906D00D68805 /* Logout.m */; };
+		62E9E98E1C1E906D00D68805 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E9E9891C1E906D00D68805 /* MJExtensionConst.m */; };
+		62E9E98F1C1E906D00D68805 /* QuickManifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62E9E98A1C1E906D00D68805 /* QuickManifest.plist */; };
+		62E9E9901C1E906D00D68805 /* QuickUnifyPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E9E98B1C1E906D00D68805 /* QuickUnifyPlatform.framework */; };
+		62E9E9911C1E906D00D68805 /* SMResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62E9E98C1C1E906D00D68805 /* SMResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		620D34891C1EB603001B2859 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		621FF1851C190AF2006EDCC8 /* 1210.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1210.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		621FF1891C190AF2006EDCC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		621FF18B1C190AF2006EDCC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +33,13 @@
 		621FF1941C190AF2006EDCC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		621FF1971C190AF2006EDCC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		621FF1991C190AF2006EDCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E9E9861C1E906D00D68805 /* Logout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logout.h; sourceTree = "<group>"; };
+		62E9E9871C1E906D00D68805 /* Logout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logout.m; sourceTree = "<group>"; };
+		62E9E9881C1E906D00D68805 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		62E9E9891C1E906D00D68805 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		62E9E98A1C1E906D00D68805 /* QuickManifest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuickManifest.plist; sourceTree = "<group>"; };
+		62E9E98B1C1E906D00D68805 /* QuickUnifyPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickUnifyPlatform.framework; sourceTree = "<group>"; };
+		62E9E98C1C1E906D00D68805 /* SMResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620D348A1C1EB603001B2859 /* libc++.tbd in Frameworks */,
+				62E9E9901C1E906D00D68805 /* QuickUnifyPlatform.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +58,7 @@
 		621FF17C1C190AF2006EDCC8 = {
 			isa = PBXGroup;
 			children = (
+				620D34891C1EB603001B2859 /* libc++.tbd */,
 				621FF1871C190AF2006EDCC8 /* 1210 */,
 				621FF1861C190AF2006EDCC8 /* Products */,
 			);
@@ -58,6 +75,7 @@
 		621FF1871C190AF2006EDCC8 /* 1210 */ = {
 			isa = PBXGroup;
 			children = (
+				62E9E9851C1E906D00D68805 /* Public */,
 				621FF18B1C190AF2006EDCC8 /* AppDelegate.h */,
 				621FF18C1C190AF2006EDCC8 /* AppDelegate.m */,
 				621FF18E1C190AF2006EDCC8 /* ViewController.h */,
@@ -78,6 +96,20 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		62E9E9851C1E906D00D68805 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				62E9E9861C1E906D00D68805 /* Logout.h */,
+				62E9E9871C1E906D00D68805 /* Logout.m */,
+				62E9E9881C1E906D00D68805 /* MJExtensionConst.h */,
+				62E9E9891C1E906D00D68805 /* MJExtensionConst.m */,
+				62E9E98A1C1E906D00D68805 /* QuickManifest.plist */,
+				62E9E98B1C1E906D00D68805 /* QuickUnifyPlatform.framework */,
+				62E9E98C1C1E906D00D68805 /* SMResources.bundle */,
+			);
+			path = Public;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -137,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				621FF1981C190AF2006EDCC8 /* LaunchScreen.storyboard in Resources */,
+				62E9E9911C1E906D00D68805 /* SMResources.bundle in Resources */,
+				62E9E98F1C1E906D00D68805 /* QuickManifest.plist in Resources */,
 				621FF1951C190AF2006EDCC8 /* Assets.xcassets in Resources */,
 				621FF1931C190AF2006EDCC8 /* Main.storyboard in Resources */,
 			);
@@ -150,6 +184,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				621FF1901C190AF2006EDCC8 /* ViewController.m in Sources */,
+				62E9E98E1C1E906D00D68805 /* MJExtensionConst.m in Sources */,
+				62E9E98D1C1E906D00D68805 /* Logout.m in Sources */,
 				621FF18D1C190AF2006EDCC8 /* AppDelegate.m in Sources */,
 				621FF18A1C190AF2006EDCC8 /* main.m in Sources */,
 			);
@@ -264,6 +300,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Public",
+				);
 				INFOPLIST_FILE = 1210/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Genius.-210";
@@ -276,6 +316,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Public",
+				);
 				INFOPLIST_FILE = 1210/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Genius.-210";

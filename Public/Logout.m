@@ -7,9 +7,14 @@
 //
 
 #import "Logout.h"
+//#import <QuickUnifyPlatform/QuickUnifyPlatform.h>
 
 @implementation Logout
 -(void)log33:(NSString *)message{
     NSLog(@"cdfdf%@",message);
+    
+//    [[QuickUnifyPlatform getInstance]qupInit];
+//    [[QuickUnifyPlatform getInstance]qupLogin];
+//    NSLog(@"QuickUnifyPlatform");
 }
 @end
