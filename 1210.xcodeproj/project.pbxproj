@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		620D348A1C1EB603001B2859 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 620D34891C1EB603001B2859 /* libc++.tbd */; };
-		620D34931C21744B001B2859 /* Framework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620D348C1C21744B001B2859 /* Framework1.framework */; };
 		620D34941C21744B001B2859 /* Logout.m in Sources */ = {isa = PBXBuildFile; fileRef = 620D348E1C21744B001B2859 /* Logout.m */; };
 		620D34951C21744B001B2859 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 620D34901C21744B001B2859 /* MJExtensionConst.m */; };
 		620D34961C21744B001B2859 /* QuickManifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 620D34911C21744B001B2859 /* QuickManifest.plist */; };
@@ -19,11 +18,11 @@
 		621FF1931C190AF2006EDCC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621FF1911C190AF2006EDCC8 /* Main.storyboard */; };
 		621FF1951C190AF2006EDCC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621FF1941C190AF2006EDCC8 /* Assets.xcassets */; };
 		621FF1981C190AF2006EDCC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621FF1961C190AF2006EDCC8 /* LaunchScreen.storyboard */; };
+		62DD9F091C23E5B0000FB232 /* QuickUnifyPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DD9F081C23E5B0000FB232 /* QuickUnifyPlatform.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		620D34891C1EB603001B2859 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		620D348C1C21744B001B2859 /* Framework1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Framework1.framework; sourceTree = "<group>"; };
 		620D348D1C21744B001B2859 /* Logout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logout.h; sourceTree = "<group>"; };
 		620D348E1C21744B001B2859 /* Logout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logout.m; sourceTree = "<group>"; };
 		620D348F1C21744B001B2859 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		621FF1941C190AF2006EDCC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		621FF1971C190AF2006EDCC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		621FF1991C190AF2006EDCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62DD9F081C23E5B0000FB232 /* QuickUnifyPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickUnifyPlatform.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				620D348A1C1EB603001B2859 /* libc++.tbd in Frameworks */,
-				620D34931C21744B001B2859 /* Framework1.framework in Frameworks */,
+				62DD9F091C23E5B0000FB232 /* QuickUnifyPlatform.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +58,7 @@
 		620D348B1C21744B001B2859 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				620D348C1C21744B001B2859 /* Framework1.framework */,
+				62DD9F081C23E5B0000FB232 /* QuickUnifyPlatform.framework */,
 				620D348D1C21744B001B2859 /* Logout.h */,
 				620D348E1C21744B001B2859 /* Logout.m */,
 				620D348F1C21744B001B2859 /* MJExtensionConst.h */,

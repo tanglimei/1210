@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
       "ONLY_ACTIVE_ARCH" => "NO",
       "ARCHITECTURES" => "$(ARCHS_STANDARD)",
       "VALID_ARCHITECTURES"=> "arm64 armv7 armv7s x86_64",
+      'FRAMEWORK_SEARCH_PATHS'=>'"$(PODS_ROOT)/Public"'
     }
   #s.pod_target_xcconfig = {"VALID_ARCHS" => "arm64 armv7"}
   #s.pod_target_xcconfig =  {'OTHER_LDFLAGS' => '-lObjC',"VALID_ARCHS" => "arm64 armv7","ARCHS" => "arm64 armv7",'FRAMEWORK_SEARCH_PATHS'=>'"$(PODS_ROOT)/Public"' }
